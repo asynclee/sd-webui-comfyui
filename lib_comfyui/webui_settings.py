@@ -50,7 +50,8 @@ def get_comfyui_client_url():
         """), sys.stderr)
         client_url = loopback_address
 
-    return f'http://{client_url}:{get_port()}/'
+    # return f'http://{client_url}:{get_port()}/'
+    return 'http://100.66.6.139:8189'
 
 
 class WebuiOptions:
